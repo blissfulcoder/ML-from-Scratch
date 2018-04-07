@@ -5,11 +5,9 @@ import pandas as pd
 import keras
 from keras.layers import Dense, Activation, Input
 from keras.models import Model
-
 ds = pd.read_csv("D:\ML--perceptron\mnist\train.csv")
 data = ds.values
 print (data.head())
-
 
 X_data = data[:, 1:]
 X_std = X_data/255.0
