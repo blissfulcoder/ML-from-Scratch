@@ -13,6 +13,7 @@ print (data.head())
 
 X_data = data[:, 1:]
 X_std = X_data/255.0
+
 n_train = int(0.75*X_std.shape[0])
 n_val = int(0.25*X_std.shape[0])
 
