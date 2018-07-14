@@ -10,7 +10,6 @@ data = ds.values
 print (data.head())
 
 
-
 X_data = data[:, 1:]
 X_std = X_data/255.0
 
