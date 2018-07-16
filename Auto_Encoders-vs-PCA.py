@@ -18,4 +18,5 @@ n_val = int(0.25*X_std.shape[0])
 X_train = X_std[:n_train]
 X_val = X_std[n_train:n_train+n_val]
 
+
 print (X_train.shape, X_val.shape)
